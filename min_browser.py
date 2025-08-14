@@ -1,6 +1,7 @@
 import sys
 from PyQt6.QtCore import QUrl
-from PyQt6.QtWidgets import QApplication, QMainWindow, QToolBar, QAction, QLineEdit
+from PyQt6.QtGui import QAction  # ✅ moved here in PyQt6
+from PyQt6.QtWidgets import QApplication, QMainWindow, QToolBar, QLineEdit
 from PyQt6.QtWebEngineWidgets import QWebEngineView
 
 class Browser(QMainWindow):
